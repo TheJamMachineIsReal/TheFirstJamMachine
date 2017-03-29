@@ -1,0 +1,25 @@
+{
+  "name": "the_first_jam_machine",
+  "version": "1.0.0",
+  "description": "the first try, dont expect much",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJamMachineIsReal/TheFirstJamMachine.git"
+  },
+  "keywords": [
+    "tryhard"
+  ],
+  "author": "Vaczi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheJamMachineIsReal/TheFirstJamMachine/issues"
+  },
+  "homepage": "https://github.com/TheJamMachineIsReal/TheFirstJamMachine#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}
