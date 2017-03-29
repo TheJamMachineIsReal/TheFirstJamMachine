@@ -13,14 +13,18 @@ let client = new Twitter({
 
 let params = {screen_name: 'nodejs'}
 
-let testStatus = " First tweet for this one. Machine Learning..."
+let testStatus = " this one is the last of today, but mostly just for luck"
 
-client.post('statuses/update', { status : testStatus}, function(error, tweet, response) {
-  if(error) {
-    console.log(error)
-    console.log(tweet)
-    console.log(response)
-  } else {
-    console.log("tweeted fine?")
-  }
-})
+let postFirstTweet = function(testStatus){
+  client.post('statuses/update', { status : testStatus}, function(error, tweet, response) {
+    if(error) {
+      console.log(error)
+      console.log(tweet)
+      console.log(response)
+    } else {
+      console.log("tweeted fine?")
+    }
+  })
+}
+
+postFirstTweet(testStatus)
