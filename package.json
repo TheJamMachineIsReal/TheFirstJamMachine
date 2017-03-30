@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/TheJamMachineIsReal/TheFirstJamMachine#readme",
   "dependencies": {
+    "twit": "^2.2.5",
     "twitter": "^1.7.0"
   }
 }
